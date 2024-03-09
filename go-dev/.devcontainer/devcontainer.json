@@ -5,10 +5,10 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-    "runArgs": [
-        "--name",
-        "go-dev"
-    ],
+	"runArgs": [
+		"--name",
+		"go-dev"
+	],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -21,12 +21,12 @@
 
 	// Configure tool-specific properties.
 	"customizations": {
-        "vscode": {
-            "extensions": [
-                "ms-vscode.makefile-tools"
-            ]
-        }
-    }
+		"vscode": {
+			"extensions": [
+				"ms-vscode.makefile-tools"
+			]
+		}
+	}
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
