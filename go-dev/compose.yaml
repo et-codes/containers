@@ -1,0 +1,15 @@
+version: "3"
+services:
+  go-dev:
+    image: go-dev:latest
+    build:
+      dockerfile: ./.devcontainer/Dockerfile
+    container_name: go-dev
+    ports:
+      - 8000:8000
+    stdin_open: true
+    tty: true
+    volumes:
+      - data:/workspace
+volumes:
+  data:
